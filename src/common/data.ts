@@ -26,7 +26,7 @@ export default {
             "name": "project",
             "title": "项目名称",
             "width": 200,
-            "fixed": "left",
+            "flex": 1,
             "type": "link",
             "sortType": false,
             "nestedToggle": true
