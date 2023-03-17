@@ -5,6 +5,7 @@ import { resolve } from 'path'
 
 export default defineConfig(({mode}) => {
     return {
+        base: './',
         plugins: [vue()],
         esbuild: {
             jsxInject: `import React from 'react'`,
