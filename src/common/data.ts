@@ -1,5 +1,6 @@
 export default {
-    "height": 400,
+    "height": '100%',
+    "responsive": true,
     "striped": true,
     "checkOnClickRow": true,
     "plugins": [
